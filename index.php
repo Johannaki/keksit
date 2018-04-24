@@ -1,21 +1,4 @@
 
-<?php
-
-$nimi = 'Pekka';
-$salasana = 'ki55a';
-
-if(isset($_POST['submit'])){
-  if (isset($_POST['nimi']) && isset($_POST['salasana'])) {
-    if (($_POST['nimi'] == $nimi) && ($_POST['salasana'] == $salasana)){
-      header('location: jee.php')
-    }
-  } else {
-    echo "No nyt meni jotain mönkään. Yritä uudestaan.";
-  }
-} else {
-    echo "No nyt meni jotain mönkään. Yritä uudestaan.";
-  }
-?>
 
 <!DOCTYPE HTML>
 <html lang="en">

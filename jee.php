@@ -21,7 +21,6 @@ if(isset($_POST['submit'])){
    <head>
      <meta charset="UTF-8">
      <title></title>
-
      <style>
      body {
        background-image: url("kissa.jpg");
